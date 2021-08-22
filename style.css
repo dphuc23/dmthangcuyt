@@ -1,0 +1,24 @@
+.img {
+    display: block;
+    width: 40%;
+    margin: auto auto;
+}
+
+.txt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    font-size: 16pt;
+}
+
+@media (max-width : 740px) {
+    .img {
+        width: 100%;
+    }
+    
+    .txt {
+        width: 100%;
+    }
+}
